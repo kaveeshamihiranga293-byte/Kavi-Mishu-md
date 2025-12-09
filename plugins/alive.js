@@ -2,7 +2,7 @@ const { cmd, commands } = require('../command');
 const config = require('../config');
 
 cmd({
-    pattern: "Kavi",
+    pattern: "alive",
     desc: "Check bot online or no.",
     category: "main",
     filename: __filename
